@@ -80,11 +80,11 @@
 
         layer_symbols {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                   &trans     &trans                &trans     &trans           &trans            &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                   &trans     &trans              &kp PLUS  &kp MINUS  &kp EXCLAMATION   &kp RIGHT_BRACE  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans   &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp UNDER         &kp PIPE    &kp LEFT_BRACE  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                      &trans              &kp STAR  &kp SLASH    &kp AMPERSAND  &kp LEFT_BRACKET  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &kp TAB                           &trans     &trans           &trans            &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                    &trans     &trans                &trans     &trans           &trans            &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                    &trans     &trans              &kp PLUS  &kp MINUS  &kp EXCLAMATION   &kp RIGHT_BRACE  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                   &trans  &trans   &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp UNDER         &kp PIPE    &kp LEFT_BRACE  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                   &trans                      &trans              &kp STAR  &kp SLASH    &kp AMPERSAND  &kp LEFT_BRACKET  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &kp ESC  &trans  &kp TAB                           &trans     &trans           &trans            &trans  &trans
             >;
         };
 
