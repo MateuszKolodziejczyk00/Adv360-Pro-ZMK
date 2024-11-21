@@ -35,11 +35,11 @@
         "&none",        "&none",        "&none",        "&none",   "&macro_ver",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                "&trans",               "&trans",           "&trans",         "&trans",          "&trans",          "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                "&trans",             "&kp PLUS",        "&kp MINUS", "&kp UNDERSCORE", "&kp EXCLAMATION", "&kp RIGHT_BRACE", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&kp EQUAL", "&kp LEFT_PARENTHESIS", "&kp LEFT_BRACKET",  "&kp AMPERSAND",        "&kp PIPE",  "&kp LEFT_BRACE", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                                    "&kp STAR",        "&kp SLASH",         "&trans",          "&trans",          "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans",   "&kp TAB",                                   "&trans",         "&trans",          "&trans",          "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                              "&trans",    "&trans",               "&trans",    "&trans",          "&trans",           "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                              "&trans",    "&trans",             "&kp PLUS", "&kp MINUS", "&kp EXCLAMATION",  "&kp RIGHT_BRACE", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans",  "&trans", "&kp EQUAL", "&kp LEFT_PARENTHESIS", "&kp UNDER",        "&kp PIPE",   "&kp LEFT_BRACE", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                         "&trans",             "&kp STAR", "&kp SLASH",   "&kp AMPERSAND", "&kp LEFT_BRACKET", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&kp TAB",                            "&trans",    "&trans",          "&trans",           "&trans", "&trans"
     ]
   ]
 }
