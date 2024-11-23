@@ -102,9 +102,9 @@
             bindings = <
  &trans  &trans   &trans    &trans     &trans    &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans   &trans    &trans     &trans    &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &kp DEL  &kp LALT  &kp LCTRL   &kp TAB            &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans   &trans    &trans     &trans  &kp LGUI                            &trans                     &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans   &trans    &trans     &trans                      &trans  &trans  &trans                  &kp LCTRL  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &kp DEL  &kp LALT  &kp LCTRL   &kp TAB            &trans  &trans  &trans                  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &trans    &trans     &trans  &kp LGUI                            &trans                  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &trans    &trans     &trans                      &trans  &trans  &trans                   &mo 4  &kp LCTRL  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -112,9 +112,9 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans    &trans     &trans    &trans   &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans    &trans     &trans    &trans   &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans                  &trans  &trans  &trans   &kp TAB  &kp LCTRL  &kp LALT  &kp DEL  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans     &trans  &trans                  &trans  &trans  &trans   &kp TAB  &kp LCTRL  &kp LALT  &kp DEL  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                               &trans                  &trans                  &kp LGUI     &trans    &trans   &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &kp LCTRL                  &trans  &trans  &trans               &trans    &trans   &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &kp LCTRL  &trans                  &trans  &trans  &trans               &trans    &trans   &trans  &trans  &trans
             >;
         };
 
