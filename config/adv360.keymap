@@ -100,21 +100,21 @@
 
         layer_easky_special_L {
             bindings = <
- &trans  &trans   &trans    &trans     &trans    &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans   &trans    &trans     &trans    &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &kp DEL  &kp LALT  &kp LCTRL   &kp TAB            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans   &trans    &trans     &trans  &kp LGUI                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans   &trans    &trans     &trans                      &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &trans    &trans     &trans    &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &trans    &trans     &trans    &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &kp DEL  &kp LALT  &kp LCTRL   &kp TAB            &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &trans    &trans     &trans  &kp LGUI                            &trans                     &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &trans    &trans     &trans                      &trans  &trans  &trans                  &kp LCTRL  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_easy_special_r {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans     &trans    &trans   &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans     &trans    &trans   &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans   &kp TAB  &kp LCTRL  &kp LALT  &kp DEL  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &kp LGUI     &trans    &trans   &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans               &trans    &trans   &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans    &trans     &trans    &trans   &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans    &trans     &trans    &trans   &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans                  &trans  &trans  &trans   &kp TAB  &kp LCTRL  &kp LALT  &kp DEL  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                               &trans                  &trans                  &kp LGUI     &trans    &trans   &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &kp LCTRL                  &trans  &trans  &trans               &trans    &trans   &trans  &trans  &trans
             >;
         };
 
