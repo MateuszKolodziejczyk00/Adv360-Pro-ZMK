@@ -102,7 +102,7 @@
             bindings = <
  &trans  &trans   &trans    &trans     &trans    &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans   &trans    &trans     &trans    &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &kp DEL  &kp LALT  &kp LCTRL    &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &kp DEL  &kp LALT  &kp LCTRL   &kp TAB            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans   &trans    &trans     &trans  &kp LGUI                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans   &trans    &trans     &trans                      &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
@@ -112,7 +112,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans     &trans    &trans   &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans     &trans    &trans   &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans    &trans  &kp RCTRL  &kp RALT  &kp DEL  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans   &kp TAB  &kp RCTRL  &kp RALT  &kp DEL  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &kp LGUI     &trans    &trans   &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans               &trans    &trans   &trans  &trans  &trans
             >;
