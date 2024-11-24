@@ -80,11 +80,11 @@
 
         layer_symbols {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                    &trans                 &trans                &trans     &trans            &trans           &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                    &trans  &kp RIGHT_PARENTHESIS              &kp PLUS  &kp MINUS  &kp GREATER_THAN           &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                   &trans  &trans   &trans              &kp EQUAL  &kp LEFT_PARENTHESIS  &kp UNDER          &kp PIPE  &kp EXCLAMATION  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                   &trans                               &kp KP_N0              &kp STAR  &kp SLASH     &kp AMPERSAND           &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &kp ESC   &mo 8  &kp TAB                                       &trans     &trans            &trans           &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                    &trans     &trans                &trans                 &trans            &trans           &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                    &trans   &kp PLUS              &kp STAR              &kp MINUS  &kp GREATER_THAN           &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                   &trans  &trans   &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp PIPE  &kp EXCLAMATION  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                   &trans                   &kp KP_N0        &kp UNDERSCORE              &kp SLASH     &kp AMPERSAND           &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &kp ESC   &mo 8  &kp TAB                           &trans                 &trans            &trans           &trans  &trans
             >;
         };
 
