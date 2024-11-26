@@ -30,13 +30,41 @@
             bindings = <&kp>, <&kp>;
         };
 
-        tap_or_layer: tap_or_layer {
+        left_thumb_bh: left_thumb_bh {
             compatible = "zmk,behavior-hold-tap";
-            label = "TAP_OR_LAYER";
-            bindings = <&mo>, <&kp>;
+            label = "LEFT_THUMB_BH";
+            bindings = <&kp>, <&left_thumb_press_morph>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        left_thumb_press_morph: left_thumb_press_morph {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LEFT_THUMB_PRESS_MORPH";
+            bindings = <&kp BACKSPACE>, <&kp TAB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        right_thumb_press_morph: right_thumb_press_morph {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RIGHT_THUMB_PRESS_MORPH";
+            bindings = <&kp ENTER>, <&kp TAB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL)>;
+        };
+
+        right_thumb_bh: right_thumb_bh {
+            compatible = "zmk,behavior-hold-tap";
+            label = "RIGHT_THUMB_BH";
+            bindings = <&kp>, <&right_thumb_press_morph>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
             flavor = "balanced";
         };
     };
@@ -46,11 +74,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                    &mo 3      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &kp DELETE                                                                &none      &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp TAB     &kp HOME             &kp END       &kp LGUI   &kp TAB         &mo 5      &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                    &mo 6         &kp LCTRL                             &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &mo 4       &mt LCTRL BACKSPACE  &kp LALT      &mo 7      &mt LALT ENTER  &kp SPACE          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                    &mo 3      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &kp DELETE                                                                                &none      &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp TAB     &kp LC(LEFT_CONTROL)    &kp LEFT_ALT      &kp LGUI   &kp TAB                  &mo 5      &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                       &kp HOME          &kp LCTRL                                      &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &mo 4       &left_thumb_bh LCTRL 0  &kp END           &mo 7      &right_thumb_bh LCTRL 0  &kp SPACE          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
